@@ -6,6 +6,11 @@
   "repository": "https://github.com/artisanstudio/tailwindcss-modularscale",
   "author": "Jaggy Gauran jaggy@artisan.studio",
   "license": "MIT",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-plugin"
+  ],
   "dependencies": {
     "modularscale-js": "^3.0.1"
   }
