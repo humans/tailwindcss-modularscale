@@ -41,6 +41,23 @@ The generated code will use `.ms-` to avoid conflicts with the `textSize` utilit
 .ms-4xl  { font-size: 67px; }
 ```
 
+To add other variants of the font sizes:
+
+```js
+module.exports = {
+  // ...
+  
+  plugins: [
+    require('tailwindcss-modularscale')({
+      base:     16,
+      ratio:    1.333,
+      variants: ['responsive'],
+    })
+  ],
+}
+```
+
+
 ## Limitations
 
 As of now, this plugin only supports one base size. I'm still not sure what's the best utility class if I were to support multiple base sizes.

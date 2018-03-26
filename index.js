@@ -1,6 +1,6 @@
 const ModularScale = require('modularscale-js');
 
-module.exports = function({ base, ratio }) {
+module.exports = function({ base, ratio, variants }) {
     const ms = function(size) {
         return Math.round(ModularScale(size, { base, ratio })) + 'px';
     }
@@ -23,6 +23,6 @@ module.exports = function({ base, ratio }) {
             },
         }));
 
-        addUtilities(utilities);
+        addUtilities(utilities, variants);
     }
 }

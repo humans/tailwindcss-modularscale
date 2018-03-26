@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-modularscale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modular scale plugin for TailwindCSS.",
   "main": "index.js",
   "repository": "https://github.com/artisanstudio/tailwindcss-modularscale",
